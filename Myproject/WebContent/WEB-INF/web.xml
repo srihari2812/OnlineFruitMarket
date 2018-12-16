@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app> 
+<servlet>
+ 	<servlet-name>selectType</servlet-name>
+ 	<servlet-class>selectType</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>selectType</servlet-name>
+  <url-pattern>/selectType</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>loginServlet</servlet-name>
+ 	<servlet-class>loginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>signUpServlet</servlet-name>
+ 	<servlet-class>signUpServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>signUpServlet</servlet-name>
+  <url-pattern>/signUpServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>makeTransaction</servlet-name>
+ 	<servlet-class>makeTransaction</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>makeTransaction</servlet-name>
+  <url-pattern>/makeTransaction</url-pattern>
+ </servlet-mapping>
+ 
+ </web-app>
+</element>
